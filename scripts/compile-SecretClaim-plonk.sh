@@ -6,6 +6,7 @@ cd contracts/circuits
 
 mkdir SecretClaim_plonk
 
+# Download links: https://github.com/iden3/snarkjs#15-setup
 if [ -f ./powersOfTau28_hez_final_12.ptau ]; then
     echo "powersOfTau28_hez_final_12.ptau already exists. Skipping."
 else
